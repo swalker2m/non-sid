@@ -1,5 +1,6 @@
 module NonSid where
 
+-- ignoring band
 type Magnitude = Maybe Double
 
 data Coordinates = Coordinates { ra :: Double, dec :: Double }
